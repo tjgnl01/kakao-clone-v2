@@ -9,3 +9,7 @@ body {
   color: #020202;
   font-family: "Open Sans", sans-serif;
 }
+
+a {
+  color: inherit;
+}
