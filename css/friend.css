@@ -47,3 +47,17 @@
 .friend .friend__name {
   font-weight: bold;
 }
+
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 2px solid #52e084;
+  font-size: 14px;
+}
+
+.friend__now-listening span {
+  opacity: 0.7;
+}
+.friend__now-listening i {
+  font-size: 12px;
+}
