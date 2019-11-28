@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="satus-bar__clock">13:22</span>
@@ -42,23 +42,22 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
           <img src="../me.jpg" class="m-avatar message__avtar" />
           <div class="message__content">
             <span class="meassage__author">Best Friend</span>
-            <div class="message_bubble">
+            <div class="message__bubble">
               Congrats I love you!
             </div>
           </div>
-          <span class="messaage__timestamp"></span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="messaage__timestamp"></span>
           <div class="message__content">
-            <div class="message_bubble">
+            <div class="message__bubble">
               Thank you see you soon!
             </div>
           </div>
@@ -67,7 +66,7 @@
     </main>
     <div class="chat__write">
       <div class="chat__write-column">
-        <i class="far fa-plsu-square"></i>
+        <i class="far fa-plus-square"></i>
       </div>
       <div class="chat__write-column">
         <input
@@ -85,29 +84,6 @@
         </span>
       </div>
     </div>
-    <main class="settings">
-      <section class="settings_sections">
-        <ul class="settings__list">
-          <li class="settings__setting">
-            <span class="settings__icon">
-              <i class="fas fa-lock"></i>
-            </span>
-            <span class="settings__title">Privacy</span>
-          </li>
-          <li class="settings__setting">
-            <span class="settings__icon">
-              <i class="far fa-bell"></i>
-            </span>
-            <span class="settings__title">Notification</span>
-          </li>
-          <li class="settings__setting">
-            <span class="settings__icon">
-              <i class="far fa-user"></i>
-            </span>
-            <span class="settings__title">Friends</span>
-          </li>
-        </ul>
-      </section>
-    </main>
+    <main class="settings"></main>
   </body>
 </html>
