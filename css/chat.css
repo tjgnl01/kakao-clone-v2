@@ -1,5 +1,6 @@
 .header-wrapper {
   background-color: white;
+  z-index: 2;
   position: fixed;
   top: 0;
   width: 100%;
@@ -50,8 +51,8 @@
       0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   }
   50% {
-    box-shadow: 0 30px 60px -60px rgba(50, 50, 93, 0.25),
-      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    box-shadow: 0 30px 60px -10px rgba(50, 50, 93, 0.25),
+      0 18px 36px -1px rgba(0, 0, 0, 0.3),
       0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   }
   100% {
@@ -164,13 +165,13 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
-  background-image: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  background-image: linear-gradient(to right, #c9ffbf, #ffafbd);
   color: white;
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #a770ef, #cf8bf3, #fdb99b);
+  background-image: linear-gradient(to left, #5f2c82, #49a09d);
   color: white;
 }
 
